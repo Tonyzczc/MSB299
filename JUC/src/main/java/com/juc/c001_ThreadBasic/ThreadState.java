@@ -1,4 +1,4 @@
-package com.juc.c001;
+package com.juc.c001_ThreadBasic;
 
 /**
  * 创建线程池有三种方式 Thread Runnable Executors.newCachedThread
