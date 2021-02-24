@@ -3,9 +3,12 @@ package com.wsafe.arica.service;
 import com.jfinal.kit.Kv;
 import com.jfinal.template.Engine;
 import com.jfinal.template.Template;
+import com.jfinal.template.ext.spring.JFinalViewResolver;
 import com.wsafe.arica.entity.Item;
 import com.wsafe.arica.entity.ItemExample;
+import com.wsafe.arica.entity.ItemHtml;
 import com.wsafe.arica.mapper.ItemDAO;
+import org.apache.commons.lang3.builder.ToStringBuilder;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 import org.springframework.util.ClassUtils;
@@ -95,5 +98,60 @@ public class ItemService {
         writer.write(content);
         writer.flush();
         writer.close();
+    }
+
+    /**
+     * 生成item文件
+     * @return
+     */
+    public List<ItemHtml> generateAll() {
+        List<ItemHtml> itemHtmlList = itemDAO.selectAllByItemHtml();
+        Engine engine = JFinalViewResolver.engine;
+
+        String filePath = templePath;
+        Template template = engine.getTemplate("item.html");
+
+        for(ItemHtml itemHtml : itemHtmlList){
+            Kv kv = Kv.by("item", itemHtml);
+            String fileName = "item"+itemHtml.getId()+".html";
+            File file = new File(filePath+fileName);
+
+            try {
+                template.render(kv, file);
+                itemHtml.setHtmlStatus("ok");
+                itemHtml.setLocation(filePath + fileName);
+            }catch (Exception e){
+                itemHtml.setHtmlStatus("error");
+                continue;
+            }
+        }
+        return itemHtmlList;
+    }
+
+    /**
+     * 生成主页文件
+     */
+    public void generateMain() {
+        // 初始化模板引擎
+        Engine engine = JFinalViewResolver.engine;
+
+        ItemExample example = new ItemExample();
+        // 从数据源，获取数据
+        List<Item> items = itemDAO.selectByExample(example );
+        //c:/dev/uploads/
+
+        // 前端模板用的键值对
+        Kv kv = Kv.by("items", items);
+
+        // 文件写入路径
+        String fileName = "main.html";
+        String filePath = templePath;
+        // 路径 直接能被用户访问
+        File file = new File(filePath+fileName);
+
+        // 开始渲染 输出文件
+        Template template = engine.getTemplate("item_main.html");
+        template.render(kv, file);
+
     }
 }

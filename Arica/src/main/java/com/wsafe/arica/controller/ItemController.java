@@ -1,6 +1,7 @@
 package com.wsafe.arica.controller;
 
 import com.wsafe.arica.entity.Item;
+import com.wsafe.arica.entity.ItemHtml;
 import com.wsafe.arica.service.ItemService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -101,7 +102,27 @@ public class ItemController {
         return "success";
     }
 
+    @RequestMapping("generateAll")
+    public String generateAll(Model model){
+        List<ItemHtml> itemHtmlList = itemService.generateAll();
+        model.addAttribute("result", itemHtmlList);
+        return "generateAll";
+    }
 
+    @RequestMapping("main")
+    public String main(Model model) {
+        List<Item> items = itemService.findAll();
+        model.addAttribute("items", items);
+        return "item_main";
+    }
+
+    @RequestMapping("generateMain")
+    public String generateMain(Model model){
+        itemService.generateMain();
+        String msg = "文件生成成功，<a href='main.html' target='_blank'>查看</a>";
+        model.addAttribute("msg", msg);
+        return "success";
+    }
 
 
 }
