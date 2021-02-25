@@ -15,6 +15,7 @@ import org.springframework.util.ClassUtils;
 
 import javax.annotation.Resource;
 import java.io.*;
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -23,6 +24,8 @@ import java.util.List;
  **/
 @Service
 public class ItemService {
+
+    private static List<Integer> locks = new ArrayList<Integer>();
 
     @Value("${nginx.html.root}")
     private String templePath;
@@ -153,5 +156,30 @@ public class ItemService {
         Template template = engine.getTemplate("item_main.html");
         template.render(kv, file);
 
+    }
+
+    public Item update(Item item) {
+        itemDAO.updateByPrimaryKeySelective(item);
+        return item;
+    }
+
+    public synchronized Boolean getLock(Integer id) {
+
+        // 去 locks 里去 取 id ，有的话 说明不可写， 没有的话，添加一个id 进去
+        int index = locks.indexOf(id);
+
+        if (index == -1) {
+            // 没有
+            locks.add(id);
+            return true;
+        }else {
+            // 有，代表 别人持有锁... 死锁问题？
+            return false;
+        }
+    }
+
+    public void releaseLock(Integer id) {
+
+        locks.remove(id);
     }
 }
