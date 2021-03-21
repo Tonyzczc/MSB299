@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.xmlunit:xmlunit-assertj:2.8.2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../work/gradle-6.8.3/package/caches/modules-2/files-2.1/org.xmlunit/xmlunit-assertj/2.8.2/bd37ff5f8f260d2f526df5a98bce9e2d6eb2e1ec/xmlunit-assertj-2.8.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../work/gradle-6.8.3/package/caches/modules-2/files-2.1/org.xmlunit/xmlunit-assertj/2.8.2/e5f348d152f54679e20d8ce088fd9ace397718d9/xmlunit-assertj-2.8.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

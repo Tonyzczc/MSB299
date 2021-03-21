@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.jetbrains.kotlin:kotlin-scripting-jvm-host:1.4.30">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../work/gradle-6.8.3/package/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-scripting-jvm-host/1.4.30/60640be7b6edd515c04b764c785b8a5f7e7570e2/kotlin-scripting-jvm-host-1.4.30.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../work/gradle-6.8.3/package/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-scripting-jvm-host/1.4.30/53d9d159e21c4f08f8a7f4cbea1dc540570f90b2/kotlin-scripting-jvm-host-1.4.30-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

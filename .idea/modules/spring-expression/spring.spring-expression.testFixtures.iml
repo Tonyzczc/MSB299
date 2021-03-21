@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":spring-expression:testFixtures" external.linked.project.path="$MODULE_DIR$/../../../spring-framework-master/spring-expression" external.root.project.path="$MODULE_DIR$/../../../spring-framework-master" external.system.id="GRADLE" external.system.module.group="org.springframework" external.system.module.type="sourceSet" external.system.module.version="5.3.6-SNAPSHOT" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="kotlin-language" name="Kotlin">
+      <configuration version="3" platform="JVM 1.6" allPlatforms="JVM [1.6]" useProjectSettings="false">
+        <compilerSettings>
+          <option name="additionalArguments" value="-Xallow-no-source-files" />
+        </compilerSettings>
+        <compilerArguments>
+          <option name="destination" value="$MODULE_DIR$/../../../spring-framework-master/spring-expression/build/classes/kotlin/testFixtures" />
+          <option name="noStdlib" value="true" />
+          <option name="noReflect" value="true" />
+          <option name="moduleName" value="spring-expression_testFixtures" />
+          <option name="languageVersion" value="1.4" />
+          <option name="apiVersion" value="1.4" />
+          <option name="pluginOptions">
+            <array />
+          </option>
+          <option name="pluginClasspaths">
+            <array>
+              <option value="$MODULE_DIR$/../../../../work/gradle-6.8.3/package/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-script-runtime/1.4.30/b9c2a1fab9217623fc0fbadf6190e77eed6f054d/kotlin-script-runtime-1.4.30.jar" />
+              <option value="$MODULE_DIR$/../../../../work/gradle-6.8.3/package/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-scripting-common/1.4.30/c7896c5c6b504f44e7cf9f5719d4393e20680666/kotlin-scripting-common-1.4.30.jar" />
+              <option value="$MODULE_DIR$/../../../../work/gradle-6.8.3/package/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-scripting-jvm/1.4.30/7d0085e5781847da84580d16239c1c4e0980bdb0/kotlin-scripting-jvm-1.4.30.jar" />
+              <option value="$MODULE_DIR$/../../../../work/gradle-6.8.3/package/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.4.30/bb9a3173350f55732416ee27956ea8f9b81f4dbb/kotlin-stdlib-common-1.4.30.jar" />
+              <option value="$MODULE_DIR$/../../../../work/gradle-6.8.3/package/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.4.30/d10d1e10f47006ee08162dde039e38ac487de4ac/kotlin-stdlib-1.4.30.jar" />
+              <option value="$MODULE_DIR$/../../../../work/gradle-6.8.3/package/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core-jvm/1.4.3/1051e11eb789ed1df93412bebe0f06e9d29160e4/kotlinx-coroutines-core-jvm-1.4.3.jar" />
+              <option value="$MODULE_DIR$/../../../../work/gradle-6.8.3/package/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar" />
+            </array>
+          </option>
+          <option name="errors">
+            <ArgumentParseErrors />
+          </option>
+        </compilerArguments>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../../spring-framework-master/spring-expression/out/testFixtures/classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../spring-framework-master/spring-expression/src/testFixtures">
+      <sourceFolder url="file://$MODULE_DIR$/../../../spring-framework-master/spring-expression/src/testFixtures/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../spring-framework-master/spring-expression/src/testFixtures/kotlin" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../spring-framework-master/spring-expression/src/testFixtures/resources" type="java-resource" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../spring-framework-master/spring-core/build/libs/spring-cglib-repack-3.3.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../spring-framework-master/spring-core/build/libs/spring-objenesis-repack-3.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="spring.spring-expression.main" />
+    <orderEntry type="module" module-name="spring.spring-core.main" />
+    <orderEntry type="module" module-name="spring.spring-jcl.main" />
+  </component>
+</module>

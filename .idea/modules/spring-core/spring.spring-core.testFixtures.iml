@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":spring-core:testFixtures" external.linked.project.path="$MODULE_DIR$/../../../spring-framework-master/spring-core" external.root.project.path="$MODULE_DIR$/../../../spring-framework-master" external.system.id="GRADLE" external.system.module.group="org.springframework" external.system.module.type="sourceSet" external.system.module.version="5.3.6-SNAPSHOT" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="kotlin-language" name="Kotlin">
+      <configuration version="3" platform="JVM 1.6" allPlatforms="JVM [1.6]" useProjectSettings="false">
+        <compilerSettings>
+          <option name="additionalArguments" value="-Xallow-no-source-files" />
+        </compilerSettings>
+        <compilerArguments>
+          <option name="destination" value="$MODULE_DIR$/../../../spring-framework-master/spring-core/build/classes/kotlin/testFixtures" />
+          <option name="classpath" value="$MODULE_DIR$/../../../../work/gradle-6.8.3/package/caches/modules-2/files-2.1/io.projectreactor/reactor-test/3.4.4/8148ac4c1f4105e31b8e00f0c28a8b8c10a52832/reactor-test-3.4.4.jar:/Users/tony/Desktop/work/gradle-6.8.3/package/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.2/25ea2e8b0c338a877313bd4672d3fe056ea78f0d/jsr305-3.0.2.jar:/Users/tony/Desktop/work/gradle-6.8.3/package/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-params/5.7.1/6f81b3c053433a8a40a378d2b4f056c5c31e50ff/junit-jupiter-params-5.7.1.jar:/Users/tony/Desktop/work/gradle-6.8.3/package/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-api/5.7.1/a7261dff44e64aea7f621842eac5977fd6d2412d/junit-jupiter-api-5.7.1.jar:/Users/tony/Desktop/work/gradle-6.8.3/package/caches/modules-2/files-2.1/org.junit.platform/junit-platform-engine/1.7.1/d276a968c57f5d60a421dedd1f8b6ca2fae09e86/junit-platform-engine-1.7.1.jar:/Users/tony/Desktop/work/gradle-6.8.3/package/caches/modules-2/files-2.1/org.junit.platform/junit-platform-commons/1.7.1/7c49f0074842d07f4335de2389d624a7437d1407/junit-platform-commons-1.7.1.jar:/Users/tony/Desktop/work/gradle-6.8.3/package/caches/modules-2/files-2.1/org.junit.platform/junit-platform-launcher/1.7.1/fba1a549c3b51882a912eb454cad924a573d0df4/junit-platform-launcher-1.7.1.jar:/Users/tony/Desktop/work/gradle-6.8.3/package/caches/modules-2/files-2.1/org.xmlunit/xmlunit-assertj/2.8.2/bd37ff5f8f260d2f526df5a98bce9e2d6eb2e1ec/xmlunit-assertj-2.8.2.jar:/Users/tony/Desktop/work/gradle-6.8.3/package/caches/modules-2/files-2.1/org.assertj/assertj-core/3.19.0/f64cb5690b85e68d5e1e6c6152bfb6e3840a452d/assertj-core-3.19.0.jar:/Users/tony/Desktop/work/gradle-6.8.3/package/caches/modules-2/files-2.1/io.projectreactor/reactor-core/3.4.4/af8d139ea58201f9119591868c4e567e48916d3c/reactor-core-3.4.4.jar:/Users/tony/Desktop/work/gradle-6.8.3/package/caches/modules-2/files-2.1/org.apiguardian/apiguardian-api/1.1.0/fc9dff4bb36d627bdc553de77e1f17efd790876c/apiguardian-api-1.1.0.jar:/Users/tony/Desktop/work/gradle-6.8.3/package/caches/modules-2/files-2.1/org.opentest4j/opentest4j/1.2.0/28c11eb91f9b6d8e200631d46e20a7f407f2a046/opentest4j-1.2.0.jar:/Users/tony/Desktop/work/gradle-6.8.3/package/caches/modules-2/files-2.1/org.xmlunit/xmlunit-core/2.8.2/8e4e46b87afaaf9b6cfb8de778e473cf7aeb087f/xmlunit-core-2.8.2.jar:/Users/tony/Desktop/work/gradle-6.8.3/package/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy/1.10.10/602a3da70f603752d3ce20a9997817d8dec39b51/byte-buddy-1.10.10.jar:/Users/tony/Desktop/work/gradle-6.8.3/package/caches/modules-2/files-2.1/org.reactivestreams/reactive-streams/1.0.3/d9fb7a7926ffa635b3dcaa5049fb2bfa25b3e7d0/reactive-streams-1.0.3.jar:/Users/tony/Desktop/work/gradle-6.8.3/package/caches/modules-2/files-2.1/net.sf.jopt-simple/jopt-simple/5.0.4/4fdac2fbe92dfad86aa6e9301736f6b4342a3f5c/jopt-simple-5.0.4.jar:/Users/tony/Desktop/work/gradle-6.8.3/package/caches/modules-2/files-2.1/org.aspectj/aspectjweaver/1.9.6/ee3b73aa16df35179255f17354d9dfd8e7822835/aspectjweaver-1.9.6.jar:/Users/tony/Desktop/work/gradle-6.8.3/package/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-reflect/1.4.31/63db9d66c3d20f7b8f66196e7ba86969daae8b8a/kotlin-reflect-1.4.31.jar:/Users/tony/Desktop/work/gradle-6.8.3/package/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.4.31/a58e0fb9812a6a93ca24b5da75e4b5a0cb89c957/kotlin-stdlib-1.4.31.jar:/Users/tony/Desktop/work/gradle-6.8.3/package/caches/modules-2/files-2.1/io.reactivex/rxjava-reactive-streams/1.2.1/dac56d021c092c34662943dae3ab1432542005/rxjava-reactive-streams-1.2.1.jar:/Users/tony/Desktop/work/gradle-6.8.3/package/caches/modules-2/files-2.1/io.reactivex/rxjava/1.3.8/8c192792ad2e65a90867ab418ac49703f44d2baf/rxjava-1.3.8.jar:/Users/tony/Desktop/work/gradle-6.8.3/package/caches/modules-2/files-2.1/io.reactivex.rxjava2/rxjava/2.2.21/6f13f24c44567fc660aab94d639cda9f0fe95628/rxjava-2.2.21.jar:/Users/tony/Desktop/work/gradle-6.8.3/package/caches/modules-2/files-2.1/io.reactivex.rxjava3/rxjava/3.0.11/99dfa4529c40fd79e5367fb3fb88223687a019bd/rxjava-3.0.11.jar:/Users/tony/Desktop/work/gradle-6.8.3/package/caches/modules-2/files-2.1/io.netty/netty-buffer/4.1.60.Final/9d213d090deeca2541ad6827eb3345bcd6e1e701/netty-buffer-4.1.60.Final.jar:/Users/tony/Desktop/work/gradle-6.8.3/package/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.4.30/bb9a3173350f55732416ee27956ea8f9b81f4dbb/kotlin-stdlib-common-1.4.30.jar:/Users/tony/Desktop/work/gradle-6.8.3/package/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar:/Users/tony/Desktop/work/gradle-6.8.3/package/caches/modules-2/files-2.1/io.netty/netty-common/4.1.60.Final/44540113f7148f1014be879663501db8da1c37b0/netty-common-4.1.60.Final.jar" />
+          <option name="noStdlib" value="true" />
+          <option name="noReflect" value="true" />
+          <option name="moduleName" value="spring-core_testFixtures" />
+          <option name="languageVersion" value="1.4" />
+          <option name="apiVersion" value="1.4" />
+          <option name="pluginOptions">
+            <array />
+          </option>
+          <option name="pluginClasspaths">
+            <array>
+              <option value="$MODULE_DIR$/../../../../work/gradle-6.8.3/package/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-script-runtime/1.4.30/b9c2a1fab9217623fc0fbadf6190e77eed6f054d/kotlin-script-runtime-1.4.30.jar" />
+              <option value="$MODULE_DIR$/../../../../work/gradle-6.8.3/package/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-scripting-common/1.4.30/c7896c5c6b504f44e7cf9f5719d4393e20680666/kotlin-scripting-common-1.4.30.jar" />
+              <option value="$MODULE_DIR$/../../../../work/gradle-6.8.3/package/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-scripting-jvm/1.4.30/7d0085e5781847da84580d16239c1c4e0980bdb0/kotlin-scripting-jvm-1.4.30.jar" />
+              <option value="$MODULE_DIR$/../../../../work/gradle-6.8.3/package/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.4.30/bb9a3173350f55732416ee27956ea8f9b81f4dbb/kotlin-stdlib-common-1.4.30.jar" />
+              <option value="$MODULE_DIR$/../../../../work/gradle-6.8.3/package/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.4.30/d10d1e10f47006ee08162dde039e38ac487de4ac/kotlin-stdlib-1.4.30.jar" />
+              <option value="$MODULE_DIR$/../../../../work/gradle-6.8.3/package/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core-jvm/1.4.3/1051e11eb789ed1df93412bebe0f06e9d29160e4/kotlinx-coroutines-core-jvm-1.4.3.jar" />
+              <option value="$MODULE_DIR$/../../../../work/gradle-6.8.3/package/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar" />
+            </array>
+          </option>
+          <option name="errors">
+            <ArgumentParseErrors />
+          </option>
+        </compilerArguments>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../../spring-framework-master/spring-core/out/testFixtures/classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../spring-framework-master/spring-core/src/testFixtures">
+      <sourceFolder url="file://$MODULE_DIR$/../../../spring-framework-master/spring-core/src/testFixtures/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../spring-framework-master/spring-core/src/testFixtures/kotlin" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../spring-framework-master/spring-core/src/testFixtures/resources" type="java-resource" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../spring-framework-master/spring-core/build/libs/spring-cglib-repack-3.3.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../spring-framework-master/spring-core/build/libs/spring-objenesis-repack-3.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="spring.spring-core.main" />
+    <orderEntry type="library" name="Gradle: io.projectreactor:reactor-test:3.4.4" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.code.findbugs:jsr305:3.0.2" level="project" />
+    <orderEntry type="library" name="Gradle: org.junit.jupiter:junit-jupiter-params:5.7.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.junit.jupiter:junit-jupiter-api:5.7.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.junit.platform:junit-platform-launcher:1.7.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.xmlunit:xmlunit-assertj:2.8.2" level="project" />
+    <orderEntry type="library" name="Gradle: org.assertj:assertj-core:3.19.0" level="project" />
+    <orderEntry type="module" module-name="spring.spring-jcl.main" />
+    <orderEntry type="library" name="Gradle: io.projectreactor:reactor-core:3.4.4" level="project" />
+    <orderEntry type="library" name="Gradle: org.apiguardian:apiguardian-api:1.1.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.junit.platform:junit-platform-commons:1.7.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.opentest4j:opentest4j:1.2.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.junit.platform:junit-platform-engine:1.7.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.xmlunit:xmlunit-core:2.8.2" level="project" />
+    <orderEntry type="library" name="Gradle: net.bytebuddy:byte-buddy:1.10.10" level="project" />
+    <orderEntry type="library" name="Gradle: org.reactivestreams:reactive-streams:1.0.3" level="project" />
+    <orderEntry type="library" name="Gradle: net.sf.jopt-simple:jopt-simple:5.0.4" level="project" />
+    <orderEntry type="library" name="Gradle: org.aspectj:aspectjweaver:1.9.6" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-reflect:1.4.31" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.4.31" level="project" />
+    <orderEntry type="library" name="Gradle: io.reactivex:rxjava-reactive-streams:1.2.1" level="project" />
+    <orderEntry type="library" name="Gradle: io.reactivex:rxjava:1.3.8" level="project" />
+    <orderEntry type="library" name="Gradle: io.reactivex.rxjava2:rxjava:2.2.21" level="project" />
+    <orderEntry type="library" name="Gradle: io.reactivex.rxjava3:rxjava:3.0.11" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-buffer:4.1.60.Final" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.4.30" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains:annotations:13.0" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-common:4.1.60.Final" level="project" />
+  </component>
+</module>

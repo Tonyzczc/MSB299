@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: me.champeau.gradle:japicmp-gradle-plugin:0.2.8">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../work/gradle-6.8.3/package/caches/modules-2/files-2.1/me.champeau.gradle/japicmp-gradle-plugin/0.2.8/c60b776722fed46b46022c1f66c398fe3f99fc9b/japicmp-gradle-plugin-0.2.8.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../work/gradle-6.8.3/package/caches/modules-2/files-2.1/me.champeau.gradle/japicmp-gradle-plugin/0.2.8/609197999a40f02291a7e5022bc61e8320b558b0/japicmp-gradle-plugin-0.2.8-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

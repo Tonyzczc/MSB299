@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.apache.httpcomponents.core5:httpcore5-reactive:5.0.3">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../work/gradle-6.8.3/package/caches/modules-2/files-2.1/org.apache.httpcomponents.core5/httpcore5-reactive/5.0.3/79ca5f633345e064b49d08c1a388964345494cae/httpcore5-reactive-5.0.3.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../work/gradle-6.8.3/package/caches/modules-2/files-2.1/org.apache.httpcomponents.core5/httpcore5-reactive/5.0.3/3c75bda465d3f5ec29553fe576fc9293c348af58/httpcore5-reactive-5.0.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

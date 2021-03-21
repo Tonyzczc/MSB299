@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":kotlin-coroutines:main" external.linked.project.path="$MODULE_DIR$/../../../../spring-framework-master/spring-core/kotlin-coroutines" external.root.project.path="$MODULE_DIR$/../../../../spring-framework-master" external.system.id="GRADLE" external.system.module.group="org.springframework" external.system.module.type="sourceSet" external.system.module.version="5.3.6-SNAPSHOT" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="kotlin-language" name="Kotlin">
+      <configuration version="3" platform="JVM 1.8" allPlatforms="JVM [1.8]" useProjectSettings="false">
+        <compilerSettings>
+          <option name="additionalArguments" value="-Xallow-no-source-files -Xjsr305=strict -Werror" />
+        </compilerSettings>
+        <compilerArguments>
+          <option name="destination" value="$MODULE_DIR$/../../../../spring-framework-master/spring-core/kotlin-coroutines/build/classes/kotlin/main" />
+          <option name="classpath" value="$MODULE_DIR$/../../../../../work/gradle-6.8.3/package/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-reflect/1.4.31/63db9d66c3d20f7b8f66196e7ba86969daae8b8a/kotlin-reflect-1.4.31.jar:/Users/tony/Desktop/work/gradle-6.8.3/package/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-reactor/1.4.3/8254330db787c895801e7b4de71300cd40f3082d/kotlinx-coroutines-reactor-1.4.3.jar:/Users/tony/Desktop/work/gradle-6.8.3/package/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-reactive/1.4.3/a51f280e305634d77ce725e021a0d8d7ccbc2194/kotlinx-coroutines-reactive-1.4.3.jar:/Users/tony/Desktop/work/gradle-6.8.3/package/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core-jvm/1.4.3/1051e11eb789ed1df93412bebe0f06e9d29160e4/kotlinx-coroutines-core-jvm-1.4.3.jar:/Users/tony/Desktop/work/gradle-6.8.3/package/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk8/1.4.30/aeecfab2e6acbcb80fc6628e8882c98cbbd819cf/kotlin-stdlib-jdk8-1.4.30.jar:/Users/tony/Desktop/work/gradle-6.8.3/package/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.4.30/cd81ed90fd79e43f587bd384c2bc6d1aed0bfe31/kotlin-stdlib-jdk7-1.4.30.jar:/Users/tony/Desktop/work/gradle-6.8.3/package/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.4.31/a58e0fb9812a6a93ca24b5da75e4b5a0cb89c957/kotlin-stdlib-1.4.31.jar:/Users/tony/Desktop/work/gradle-6.8.3/package/caches/modules-2/files-2.1/io.projectreactor/reactor-core/3.4.4/af8d139ea58201f9119591868c4e567e48916d3c/reactor-core-3.4.4.jar:/Users/tony/Desktop/work/gradle-6.8.3/package/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.2/25ea2e8b0c338a877313bd4672d3fe056ea78f0d/jsr305-3.0.2.jar:/Users/tony/Desktop/work/gradle-6.8.3/package/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.4.30/bb9a3173350f55732416ee27956ea8f9b81f4dbb/kotlin-stdlib-common-1.4.30.jar:/Users/tony/Desktop/work/gradle-6.8.3/package/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar:/Users/tony/Desktop/work/gradle-6.8.3/package/caches/modules-2/files-2.1/org.reactivestreams/reactive-streams/1.0.3/d9fb7a7926ffa635b3dcaa5049fb2bfa25b3e7d0/reactive-streams-1.0.3.jar" />
+          <option name="noStdlib" value="true" />
+          <option name="noReflect" value="true" />
+          <option name="moduleName" value="kotlin-coroutines" />
+          <option name="jvmTarget" value="1.8" />
+          <option name="languageVersion" value="1.3" />
+          <option name="apiVersion" value="1.3" />
+          <option name="pluginOptions">
+            <array />
+          </option>
+          <option name="pluginClasspaths">
+            <array>
+              <option value="$MODULE_DIR$/../../../../../work/gradle-6.8.3/package/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-script-runtime/1.4.30/b9c2a1fab9217623fc0fbadf6190e77eed6f054d/kotlin-script-runtime-1.4.30.jar" />
+              <option value="$MODULE_DIR$/../../../../../work/gradle-6.8.3/package/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-scripting-common/1.4.30/c7896c5c6b504f44e7cf9f5719d4393e20680666/kotlin-scripting-common-1.4.30.jar" />
+              <option value="$MODULE_DIR$/../../../../../work/gradle-6.8.3/package/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-scripting-jvm/1.4.30/7d0085e5781847da84580d16239c1c4e0980bdb0/kotlin-scripting-jvm-1.4.30.jar" />
+              <option value="$MODULE_DIR$/../../../../../work/gradle-6.8.3/package/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.4.30/bb9a3173350f55732416ee27956ea8f9b81f4dbb/kotlin-stdlib-common-1.4.30.jar" />
+              <option value="$MODULE_DIR$/../../../../../work/gradle-6.8.3/package/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.4.30/d10d1e10f47006ee08162dde039e38ac487de4ac/kotlin-stdlib-1.4.30.jar" />
+              <option value="$MODULE_DIR$/../../../../../work/gradle-6.8.3/package/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core-jvm/1.4.3/1051e11eb789ed1df93412bebe0f06e9d29160e4/kotlinx-coroutines-core-jvm-1.4.3.jar" />
+              <option value="$MODULE_DIR$/../../../../../work/gradle-6.8.3/package/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar" />
+            </array>
+          </option>
+          <option name="errors">
+            <ArgumentParseErrors />
+          </option>
+        </compilerArguments>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../../../spring-framework-master/spring-core/kotlin-coroutines/out/production/classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../../spring-framework-master/spring-core/kotlin-coroutines/src/main">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../spring-framework-master/spring-core/kotlin-coroutines/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../spring-framework-master/spring-core/kotlin-coroutines/src/main/kotlin" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../spring-framework-master/spring-core/kotlin-coroutines/src/main/resources" type="java-resource" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-reflect:1.4.31" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-reactor:1.4.3" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.4.31" level="project" />
+    <orderEntry type="library" name="Gradle: io.projectreactor:reactor-core:3.4.4" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: com.google.code.findbugs:jsr305:3.0.2" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-reactive:1.4.3" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.4.30" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.4.3" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.4.30" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains:annotations:13.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.reactivestreams:reactive-streams:1.0.3" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.4.30" level="project" />
+  </component>
+</module>

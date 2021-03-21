@@ -56,7 +56,7 @@ public class ItemController {
      * @return
      */
     @RequestMapping("editSave")
-    public String editSave(Item item,Model model) throws Exception {
+    public String editSave(Item item,Model model) {
 
         Item itemRecord = itemService.update(item);
         model.addAttribute("msg", "添加商品成功, <a href = 'view?id="

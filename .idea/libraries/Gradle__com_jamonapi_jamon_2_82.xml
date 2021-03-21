@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.jamonapi:jamon:2.82">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../work/gradle-6.8.3/package/caches/modules-2/files-2.1/com.jamonapi/jamon/2.82/8ad354845757973eb3d3564ac57f0c351f22c6d4/jamon-2.82.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../work/gradle-6.8.3/package/caches/modules-2/files-2.1/com.jamonapi/jamon/2.82/dcec1a2f7dd4cec1eba8b7c858dd360bf40c1de9/jamon-2.82-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

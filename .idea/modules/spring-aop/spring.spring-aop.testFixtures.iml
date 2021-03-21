@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":spring-aop:testFixtures" external.linked.project.path="$MODULE_DIR$/../../../spring-framework-master/spring-aop" external.root.project.path="$MODULE_DIR$/../../../spring-framework-master" external.system.id="GRADLE" external.system.module.group="org.springframework" external.system.module.type="sourceSet" external.system.module.version="5.3.6-SNAPSHOT" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../../spring-framework-master/spring-aop/out/testFixtures/classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../spring-framework-master/spring-aop/src/testFixtures">
+      <sourceFolder url="file://$MODULE_DIR$/../../../spring-framework-master/spring-aop/src/testFixtures/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../spring-framework-master/spring-aop/src/testFixtures/resources" type="java-resource" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../spring-framework-master/spring-core/build/libs/spring-cglib-repack-3.3.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../spring-framework-master/spring-core/build/libs/spring-objenesis-repack-3.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="spring.spring-aop.main" />
+    <orderEntry type="module" module-name="spring.spring-core.testFixtures" />
+    <orderEntry type="module" module-name="spring.spring-beans.main" />
+    <orderEntry type="module" module-name="spring.spring-core.main" />
+    <orderEntry type="module" module-name="spring.spring-jcl.main" />
+    <orderEntry type="library" name="Gradle: org.aspectj:aspectjweaver:1.9.6" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.commons:commons-pool2:2.9.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.jamonapi:jamon:2.82" level="project" />
+    <orderEntry type="library" name="Gradle: com.hazelcast:hazelcast-all:3.12.6" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: io.projectreactor:reactor-test:3.4.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: com.google.code.findbugs:jsr305:3.0.2" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.junit.jupiter:junit-jupiter-params:5.7.1" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.junit.jupiter:junit-jupiter-api:5.7.1" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.junit.platform:junit-platform-launcher:1.7.1" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.xmlunit:xmlunit-assertj:2.8.2" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.assertj:assertj-core:3.19.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: io.projectreactor:reactor-core:3.4.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.apiguardian:apiguardian-api:1.1.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.junit.platform:junit-platform-commons:1.7.1" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.opentest4j:opentest4j:1.2.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.junit.platform:junit-platform-engine:1.7.1" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.xmlunit:xmlunit-core:2.8.2" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: net.bytebuddy:byte-buddy:1.10.10" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.reactivestreams:reactive-streams:1.0.3" level="project" />
+  </component>
+</module>

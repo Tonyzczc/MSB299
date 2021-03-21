@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":spring-jdbc:test" external.linked.project.path="$MODULE_DIR$/../../../spring-framework-master/spring-jdbc" external.root.project.path="$MODULE_DIR$/../../../spring-framework-master" external.system.id="GRADLE" external.system.module.group="org.springframework" external.system.module.type="sourceSet" external.system.module.version="5.3.6-SNAPSHOT" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="kotlin-language" name="Kotlin">
+      <configuration version="3" platform="JVM 1.8" allPlatforms="JVM [1.8]" useProjectSettings="false">
+        <compilerSettings>
+          <option name="additionalArguments" value="-Xallow-no-source-files -Xjsr305=strict" />
+        </compilerSettings>
+        <compilerArguments>
+          <option name="destination" value="$MODULE_DIR$/../../../spring-framework-master/spring-jdbc/build/classes/kotlin/test" />
+          <option name="classpath" value="$MODULE_DIR$/../../../../work/gradle-6.8.3/package/caches/modules-2/files-2.1/org.junit.platform/junit-platform-commons/1.7.1/7c49f0074842d07f4335de2389d624a7437d1407/junit-platform-commons-1.7.1.jar:/Users/tony/Desktop/work/gradle-6.8.3/package/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-params/5.7.1/6f81b3c053433a8a40a378d2b4f056c5c31e50ff/junit-jupiter-params-5.7.1.jar:/Users/tony/Desktop/work/gradle-6.8.3/package/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-api/5.7.1/a7261dff44e64aea7f621842eac5977fd6d2412d/junit-jupiter-api-5.7.1.jar:/Users/tony/Desktop/work/gradle-6.8.3/package/caches/modules-2/files-2.1/org.mockito/mockito-junit-jupiter/3.8.0/99fcae2ae7bb550341e4daf5ed04cd19cb5ac474/mockito-junit-jupiter-3.8.0.jar:/Users/tony/Desktop/work/gradle-6.8.3/package/caches/modules-2/files-2.1/org.mockito/mockito-core/3.8.0/a3f5ed0745e4d76aa880136ab514412cd50b6246/mockito-core-3.8.0.jar:/Users/tony/Desktop/work/gradle-6.8.3/package/caches/modules-2/files-2.1/io.mockk/mockk/1.10.2/6695fee82fec0186d107dd4d01fe36cc4d886b13/mockk-1.10.2.jar:/Users/tony/Desktop/work/gradle-6.8.3/package/caches/modules-2/files-2.1/org.assertj/assertj-core/3.19.0/f64cb5690b85e68d5e1e6c6152bfb6e3840a452d/assertj-core-3.19.0.jar:/Users/tony/Desktop/work/gradle-6.8.3/package/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.2/25ea2e8b0c338a877313bd4672d3fe056ea78f0d/jsr305-3.0.2.jar:/Users/tony/Desktop/work/gradle-6.8.3/package/caches/modules-2/files-2.1/org.apiguardian/apiguardian-api/1.1.0/fc9dff4bb36d627bdc553de77e1f17efd790876c/apiguardian-api-1.1.0.jar:/Users/tony/Desktop/work/gradle-6.8.3/package/caches/modules-2/files-2.1/org.opentest4j/opentest4j/1.2.0/28c11eb91f9b6d8e200631d46e20a7f407f2a046/opentest4j-1.2.0.jar:/Users/tony/Desktop/work/gradle-6.8.3/package/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy/1.10.20/c5d2d12c75c5d52f8df33f4211e6dbd05a42b117/byte-buddy-1.10.20.jar:/Users/tony/Desktop/work/gradle-6.8.3/package/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy-agent/1.10.20/8391bfea9da53fd92edd4a453571ef70b3aae09f/byte-buddy-agent-1.10.20.jar:/Users/tony/Desktop/work/gradle-6.8.3/package/caches/modules-2/files-2.1/org.objenesis/objenesis/3.1/48f12deaae83a8dfc3775d830c9fd60ea59bbbca/objenesis-3.1.jar:/Users/tony/Desktop/work/gradle-6.8.3/package/caches/modules-2/files-2.1/io.mockk/mockk-common/1.10.2/2c9fb093ab4d34c25d616e12854711807d067d0d/mockk-common-1.10.2.jar:/Users/tony/Desktop/work/gradle-6.8.3/package/caches/modules-2/files-2.1/io.mockk/mockk-dsl-jvm/1.10.2/814462244f7d36d3da63b4ff1f37ef07aa640685/mockk-dsl-jvm-1.10.2.jar:/Users/tony/Desktop/work/gradle-6.8.3/package/caches/modules-2/files-2.1/io.mockk/mockk-dsl/1.10.2/ae8d837b4b40ef4752fb09f4b9aa3ca021686210/mockk-dsl-1.10.2.jar:/Users/tony/Desktop/work/gradle-6.8.3/package/caches/modules-2/files-2.1/javax.transaction/javax.transaction-api/1.3/e006adf5cf3cca2181d16bd640ecb80148ec0fce/javax.transaction-api-1.3.jar:/Users/tony/Desktop/work/gradle-6.8.3/package/caches/modules-2/files-2.1/org.hsqldb/hsqldb/2.5.1/b1f720a63a8756867895cc22dd74b51fb70e90ac/hsqldb-2.5.1.jar:/Users/tony/Desktop/work/gradle-6.8.3/package/caches/modules-2/files-2.1/com.h2database/h2/1.4.200/f7533fe7cb8e99c87a43d325a77b4b678ad9031a/h2-1.4.200.jar:/Users/tony/Desktop/work/gradle-6.8.3/package/caches/modules-2/files-2.1/org.apache.derby/derby/10.14.2.0/7efad40ef52fbb1f08142f07a83b42d29e47d8ce/derby-10.14.2.0.jar:/Users/tony/Desktop/work/gradle-6.8.3/package/caches/modules-2/files-2.1/org.apache.derby/derbyclient/10.14.2.0/fdd338d43e09bf7cd16f5523a0f717e5ef79a1a8/derbyclient-10.14.2.0.jar:/Users/tony/Desktop/work/gradle-6.8.3/package/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-reflect/1.4.31/63db9d66c3d20f7b8f66196e7ba86969daae8b8a/kotlin-reflect-1.4.31.jar:/Users/tony/Desktop/work/gradle-6.8.3/package/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.4.31/a58e0fb9812a6a93ca24b5da75e4b5a0cb89c957/kotlin-stdlib-1.4.31.jar:/Users/tony/Desktop/work/gradle-6.8.3/package/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.4.30/bb9a3173350f55732416ee27956ea8f9b81f4dbb/kotlin-stdlib-common-1.4.30.jar:/Users/tony/Desktop/work/gradle-6.8.3/package/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar" />
+          <option name="noStdlib" value="true" />
+          <option name="noReflect" value="true" />
+          <option name="moduleName" value="spring-jdbc" />
+          <option name="jvmTarget" value="1.8" />
+          <option name="friendPaths">
+            <array>
+              <option value="$MODULE_DIR$/../../../spring-framework-master/spring-jdbc/build/classes/java/main" />
+              <option value="$MODULE_DIR$/../../../spring-framework-master/spring-jdbc/build/classes/kotlin/main" />
+              <option value="$MODULE_DIR$/../../../spring-framework-master/spring-jdbc/build/libs/spring-jdbc-5.3.6-SNAPSHOT.jar" />
+            </array>
+          </option>
+          <option name="languageVersion" value="1.4" />
+          <option name="apiVersion" value="1.4" />
+          <option name="pluginOptions">
+            <array />
+          </option>
+          <option name="pluginClasspaths">
+            <array>
+              <option value="$MODULE_DIR$/../../../../work/gradle-6.8.3/package/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-script-runtime/1.4.30/b9c2a1fab9217623fc0fbadf6190e77eed6f054d/kotlin-script-runtime-1.4.30.jar" />
+              <option value="$MODULE_DIR$/../../../../work/gradle-6.8.3/package/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-scripting-common/1.4.30/c7896c5c6b504f44e7cf9f5719d4393e20680666/kotlin-scripting-common-1.4.30.jar" />
+              <option value="$MODULE_DIR$/../../../../work/gradle-6.8.3/package/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-scripting-jvm/1.4.30/7d0085e5781847da84580d16239c1c4e0980bdb0/kotlin-scripting-jvm-1.4.30.jar" />
+              <option value="$MODULE_DIR$/../../../../work/gradle-6.8.3/package/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.4.30/bb9a3173350f55732416ee27956ea8f9b81f4dbb/kotlin-stdlib-common-1.4.30.jar" />
+              <option value="$MODULE_DIR$/../../../../work/gradle-6.8.3/package/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.4.30/d10d1e10f47006ee08162dde039e38ac487de4ac/kotlin-stdlib-1.4.30.jar" />
+              <option value="$MODULE_DIR$/../../../../work/gradle-6.8.3/package/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core-jvm/1.4.3/1051e11eb789ed1df93412bebe0f06e9d29160e4/kotlinx-coroutines-core-jvm-1.4.3.jar" />
+              <option value="$MODULE_DIR$/../../../../work/gradle-6.8.3/package/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar" />
+            </array>
+          </option>
+          <option name="errors">
+            <ArgumentParseErrors />
+          </option>
+        </compilerArguments>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output-test url="file://$MODULE_DIR$/../../../spring-framework-master/spring-jdbc/out/test/classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../spring-framework-master/spring-jdbc/src/test">
+      <sourceFolder url="file://$MODULE_DIR$/../../../spring-framework-master/spring-jdbc/src/test/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../spring-framework-master/spring-jdbc/src/test/kotlin" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../spring-framework-master/spring-jdbc/src/test/resources" type="java-test-resource" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../spring-framework-master/spring-core/build/libs/spring-cglib-repack-3.3.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../spring-framework-master/spring-core/build/libs/spring-objenesis-repack-3.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="spring.spring-jdbc.testFixtures" />
+    <orderEntry type="module" module-name="spring.spring-tx.main" />
+    <orderEntry type="module" module-name="spring.spring-beans.main" />
+    <orderEntry type="module" module-name="spring.spring-beans.testFixtures" />
+    <orderEntry type="module" module-name="spring.spring-core.main" />
+    <orderEntry type="module" module-name="spring.spring-core.testFixtures" />
+    <orderEntry type="library" name="Gradle: org.junit.jupiter:junit-jupiter-params:5.7.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.junit.jupiter:junit-jupiter-api:5.7.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.mockito:mockito-junit-jupiter:3.8.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.mockito:mockito-core:3.8.0" level="project" />
+    <orderEntry type="library" name="Gradle: io.mockk:mockk:1.10.2" level="project" />
+    <orderEntry type="library" name="Gradle: org.assertj:assertj-core:3.19.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.code.findbugs:jsr305:3.0.2" level="project" />
+    <orderEntry type="module" module-name="spring.spring-jdbc.main" />
+    <orderEntry type="module" module-name="spring.spring-jcl.main" />
+    <orderEntry type="library" name="Gradle: org.apiguardian:apiguardian-api:1.1.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.junit.platform:junit-platform-commons:1.7.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.opentest4j:opentest4j:1.2.0" level="project" />
+    <orderEntry type="library" name="Gradle: net.bytebuddy:byte-buddy:1.10.20" level="project" />
+    <orderEntry type="library" name="Gradle: net.bytebuddy:byte-buddy-agent:1.10.20" level="project" />
+    <orderEntry type="library" name="Gradle: org.objenesis:objenesis:3.1" level="project" />
+    <orderEntry type="library" name="Gradle: io.mockk:mockk-common:1.10.2" level="project" />
+    <orderEntry type="library" name="Gradle: io.mockk:mockk-dsl-jvm:1.10.2" level="project" />
+    <orderEntry type="library" name="Gradle: io.mockk:mockk-dsl:1.10.2" level="project" />
+    <orderEntry type="module" module-name="spring.spring-context.main" />
+    <orderEntry type="library" name="Gradle: javax.transaction:javax.transaction-api:1.3" level="project" />
+    <orderEntry type="library" name="Gradle: org.hsqldb:hsqldb:2.5.1" level="project" />
+    <orderEntry type="library" name="Gradle: com.h2database:h2:1.4.200" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.derby:derby:10.14.2.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.derby:derbyclient:10.14.2.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-reflect:1.4.31" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.4.31" level="project" />
+    <orderEntry type="module" module-name="spring.spring-aop.main" />
+    <orderEntry type="module" module-name="spring.spring-expression.main" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.4.30" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains:annotations:13.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.junit.platform:junit-platform-launcher:1.7.1" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.junit.jupiter:junit-jupiter-engine:5.7.1" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.apache.logging.log4j:log4j-slf4j-impl:2.14.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.apache.logging.log4j:log4j-core:2.14.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.apache.logging.log4j:log4j-jul:2.14.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.xmlunit:xmlunit-assertj:2.8.2" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: io.projectreactor:reactor-test:3.4.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.junit.platform:junit-platform-engine:1.7.1" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: io.mockk:mockk-agent-jvm:1.10.2" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.jetbrains.kotlin:kotlin-reflect:1.4.30" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.apache.logging.log4j:log4j-api:2.14.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.slf4j:slf4j-api:1.7.30" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.xmlunit:xmlunit-core:2.8.2" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: io.projectreactor:reactor-core:3.4.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: io.mockk:mockk-agent-common:1.10.2" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: io.mockk:mockk-agent-api:1.10.2" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.4.30" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.reactivestreams:reactive-streams:1.0.3" level="project" />
+  </component>
+  <component name="TestModuleProperties" production-module="spring.spring-jdbc.main" />
+</module>

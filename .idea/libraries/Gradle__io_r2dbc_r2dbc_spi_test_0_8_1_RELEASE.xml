@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: io.r2dbc:r2dbc-spi-test:0.8.1.RELEASE">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../work/gradle-6.8.3/package/caches/modules-2/files-2.1/io.r2dbc/r2dbc-spi-test/0.8.1.RELEASE/fa541c0a68836ae62f593519b1de6e850ff91184/r2dbc-spi-test-0.8.1.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../work/gradle-6.8.3/package/caches/modules-2/files-2.1/io.r2dbc/r2dbc-spi-test/0.8.1.RELEASE/889dcf3816246dce0037d68753b9a71063447933/r2dbc-spi-test-0.8.1.RELEASE-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

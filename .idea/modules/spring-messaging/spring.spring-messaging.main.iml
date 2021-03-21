@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":spring-messaging:main" external.linked.project.path="$MODULE_DIR$/../../../spring-framework-master/spring-messaging" external.root.project.path="$MODULE_DIR$/../../../spring-framework-master" external.system.id="GRADLE" external.system.module.group="org.springframework" external.system.module.type="sourceSet" external.system.module.version="5.3.6-SNAPSHOT" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="kotlin-language" name="Kotlin">
+      <configuration version="3" platform="JVM 1.8" allPlatforms="JVM [1.8]" useProjectSettings="false">
+        <compilerSettings>
+          <option name="additionalArguments" value="-Xallow-no-source-files -Xjsr305=strict -Werror" />
+        </compilerSettings>
+        <compilerArguments>
+          <option name="destination" value="$MODULE_DIR$/../../../spring-framework-master/spring-messaging/build/classes/kotlin/main" />
+          <option name="classpath" value="$MODULE_DIR$/../../../../work/gradle-6.8.3/package/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.2/25ea2e8b0c338a877313bd4672d3fe056ea78f0d/jsr305-3.0.2.jar:/Users/tony/Desktop/work/gradle-6.8.3/package/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-reflect/1.4.30/a9116fbe28a0514671787df95133f28e65fdac25/kotlin-reflect-1.4.30.jar:/Users/tony/Desktop/work/gradle-6.8.3/package/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-reactor/1.4.3/8254330db787c895801e7b4de71300cd40f3082d/kotlinx-coroutines-reactor-1.4.3.jar:/Users/tony/Desktop/work/gradle-6.8.3/package/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-reactive/1.4.3/a51f280e305634d77ce725e021a0d8d7ccbc2194/kotlinx-coroutines-reactive-1.4.3.jar:/Users/tony/Desktop/work/gradle-6.8.3/package/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core-jvm/1.4.3/1051e11eb789ed1df93412bebe0f06e9d29160e4/kotlinx-coroutines-core-jvm-1.4.3.jar:/Users/tony/Desktop/work/gradle-6.8.3/package/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk8/1.4.30/aeecfab2e6acbcb80fc6628e8882c98cbbd819cf/kotlin-stdlib-jdk8-1.4.30.jar:/Users/tony/Desktop/work/gradle-6.8.3/package/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.4.30/cd81ed90fd79e43f587bd384c2bc6d1aed0bfe31/kotlin-stdlib-jdk7-1.4.30.jar:/Users/tony/Desktop/work/gradle-6.8.3/package/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.4.30/d10d1e10f47006ee08162dde039e38ac487de4ac/kotlin-stdlib-1.4.30.jar:/Users/tony/Desktop/work/gradle-6.8.3/package/caches/modules-2/files-2.1/io.projectreactor/reactor-core/3.4.4/af8d139ea58201f9119591868c4e567e48916d3c/reactor-core-3.4.4.jar:/Users/tony/Desktop/work/gradle-6.8.3/package/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.4.30/bb9a3173350f55732416ee27956ea8f9b81f4dbb/kotlin-stdlib-common-1.4.30.jar:/Users/tony/Desktop/work/gradle-6.8.3/package/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar:/Users/tony/Desktop/work/gradle-6.8.3/package/caches/modules-2/files-2.1/org.reactivestreams/reactive-streams/1.0.3/d9fb7a7926ffa635b3dcaa5049fb2bfa25b3e7d0/reactive-streams-1.0.3.jar:/Users/tony/Desktop/work/gradle-6.8.3/package/caches/modules-2/files-2.1/io.rsocket/rsocket-transport-netty/1.1.0/9d2f07fa05e3bd85525347772a2071ce51e9aa7d/rsocket-transport-netty-1.1.0.jar:/Users/tony/Desktop/work/gradle-6.8.3/package/caches/modules-2/files-2.1/io.projectreactor.netty/reactor-netty-http/1.0.5/e3f02efa32cd3b2851b08eef6de04d6acb571f94/reactor-netty-http-1.0.5.jar:/Users/tony/Desktop/work/gradle-6.8.3/package/caches/modules-2/files-2.1/io.rsocket/rsocket-core/1.1.0/1e48c421dd3746f9bc8e750fb4d52a2547319d7f/rsocket-core-1.1.0.jar:/Users/tony/Desktop/work/gradle-6.8.3/package/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.12.2/a770cc4c0a1fb0bfd8a150a6a0004e42bc99fca/jackson-annotations-2.12.2.jar:/Users/tony/Desktop/work/gradle-6.8.3/package/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.12.2/8df50138521d05561a308ec2799cc8dda20c06df/jackson-core-2.12.2.jar:/Users/tony/Desktop/work/gradle-6.8.3/package/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.12.2/5f9d79e09ebf5d54a46e9f4543924cf7ae7654e0/jackson-databind-2.12.2.jar:/Users/tony/Desktop/work/gradle-6.8.3/package/caches/modules-2/files-2.1/com.google.protobuf/protobuf-java-util/3.15.5/95c6adc679af390e231d1d66b157f28a6478b644/protobuf-java-util-3.15.5.jar:/Users/tony/Desktop/work/gradle-6.8.3/package/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.6/9180733b7df8542621dc12e21e87557e8c99b8cb/gson-2.8.6.jar:/Users/tony/Desktop/work/gradle-6.8.3/package/caches/modules-2/files-2.1/javax.json.bind/javax.json.bind-api/1.0/10332203cb05f4ab2e8bf058bfd7d99648c5ca68/javax.json.bind-api-1.0.jar:/Users/tony/Desktop/work/gradle-6.8.3/package/caches/modules-2/files-2.1/javax.xml.bind/jaxb-api/2.3.1/8531ad5ac454cc2deb9d4d32c40c4d7451939b5d/jaxb-api-2.3.1.jar:/Users/tony/Desktop/work/gradle-6.8.3/package/caches/modules-2/files-2.1/io.netty/netty-codec-http2/4.1.60.Final/23b13e78d704f337b12000d1ad27dbdb2aa07ba1/netty-codec-http2-4.1.60.Final.jar:/Users/tony/Desktop/work/gradle-6.8.3/package/caches/modules-2/files-2.1/io.projectreactor.netty/reactor-netty-core/1.0.5/d3465ba0114b91ddb3f09cd32365aba74c6a208/reactor-netty-core-1.0.5.jar:/Users/tony/Desktop/work/gradle-6.8.3/package/caches/modules-2/files-2.1/io.netty/netty-handler-proxy/4.1.60.Final/2352f12826400e5db64b36fd951508ce9a61c196/netty-handler-proxy-4.1.60.Final.jar:/Users/tony/Desktop/work/gradle-6.8.3/package/caches/modules-2/files-2.1/io.netty/netty-codec-http/4.1.60.Final/354ca712f909fcd9d8a22e16bf84afcfdc44ec8d/netty-codec-http-4.1.60.Final.jar:/Users/tony/Desktop/work/gradle-6.8.3/package/caches/modules-2/files-2.1/io.netty/netty-resolver-dns-native-macos/4.1.60.Final/c31a75f9c775be4d1f137c179ec8ae092f3e7a5b/netty-resolver-dns-native-macos-4.1.60.Final-osx-x86_64.jar:/Users/tony/Desktop/work/gradle-6.8.3/package/caches/modules-2/files-2.1/io.netty/netty-resolver-dns/4.1.60.Final/45950bf7fd55ef3c536131ed3ce00c3c2b7f27ce/netty-resolver-dns-4.1.60.Final.jar:/Users/tony/Desktop/work/gradle-6.8.3/package/caches/modules-2/files-2.1/io.netty/netty-transport-native-epoll/4.1.60.Final/48bd240fa29a4410e22b64b6d4c26429577d6f4/netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar:/Users/tony/Desktop/work/gradle-6.8.3/package/caches/modules-2/files-2.1/io.netty/netty-handler/4.1.60.Final/14e28bab0173be10c9631a85069636a0d0221dfe/netty-handler-4.1.60.Final.jar:/Users/tony/Desktop/work/gradle-6.8.3/package/caches/modules-2/files-2.1/io.netty/netty-codec-dns/4.1.60.Final/7abc81f9d79f5dc1d734e5174c8cfaf8a32cf981/netty-codec-dns-4.1.60.Final.jar:/Users/tony/Desktop/work/gradle-6.8.3/package/caches/modules-2/files-2.1/io.netty/netty-codec-socks/4.1.60.Final/6f4573281df659265bd709fd10471c3e00ef6c70/netty-codec-socks-4.1.60.Final.jar:/Users/tony/Desktop/work/gradle-6.8.3/package/caches/modules-2/files-2.1/io.netty/netty-codec/4.1.60.Final/b740d51babe3312a33b505cd8b62c02f3731b2e3/netty-codec-4.1.60.Final.jar:/Users/tony/Desktop/work/gradle-6.8.3/package/caches/modules-2/files-2.1/io.netty/netty-transport-native-unix-common/4.1.60.Final/fad098b98df67e50135c67e4a26af56c7800daf4/netty-transport-native-unix-common-4.1.60.Final.jar:/Users/tony/Desktop/work/gradle-6.8.3/package/caches/modules-2/files-2.1/io.netty/netty-transport/4.1.60.Final/94350c81cc7a78212fb0f52a500f22d1aa9c44d8/netty-transport-4.1.60.Final.jar:/Users/tony/Desktop/work/gradle-6.8.3/package/caches/modules-2/files-2.1/io.netty/netty-buffer/4.1.60.Final/9d213d090deeca2541ad6827eb3345bcd6e1e701/netty-buffer-4.1.60.Final.jar:/Users/tony/Desktop/work/gradle-6.8.3/package/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.30/b5a4b6d16ab13e34a88fae84c35cd5d68cac922c/slf4j-api-1.7.30.jar:/Users/tony/Desktop/work/gradle-6.8.3/package/caches/modules-2/files-2.1/javax.activation/javax.activation-api/1.2.0/85262acf3ca9816f9537ca47d5adeabaead7cb16/javax.activation-api-1.2.0.jar:/Users/tony/Desktop/work/gradle-6.8.3/package/caches/modules-2/files-2.1/com.google.protobuf/protobuf-java/3.15.5/1fd3e24c16db19091da6aff562a4ef4cb98582fd/protobuf-java-3.15.5.jar:/Users/tony/Desktop/work/gradle-6.8.3/package/caches/modules-2/files-2.1/com.google.guava/guava/30.0-android/12aff8dd7211f090c35e4c51a4256f1d5569c2e7/guava-30.0-android.jar:/Users/tony/Desktop/work/gradle-6.8.3/package/caches/modules-2/files-2.1/com.google.errorprone/error_prone_annotations/2.3.4/dac170e4594de319655ffb62f41cbd6dbb5e601e/error_prone_annotations-2.3.4.jar:/Users/tony/Desktop/work/gradle-6.8.3/package/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-serialization-json-jvm/1.0.1/900f8d34f091c8a957eca49e0cf6bf7d7006482d/kotlinx-serialization-json-jvm-1.0.1.jar:/Users/tony/Desktop/work/gradle-6.8.3/package/caches/modules-2/files-2.1/io.netty/netty-resolver/4.1.60.Final/caba5004618d27386ee9d5ee8b23b09b6548fb0b/netty-resolver-4.1.60.Final.jar:/Users/tony/Desktop/work/gradle-6.8.3/package/caches/modules-2/files-2.1/io.netty/netty-common/4.1.60.Final/44540113f7148f1014be879663501db8da1c37b0/netty-common-4.1.60.Final.jar:/Users/tony/Desktop/work/gradle-6.8.3/package/caches/modules-2/files-2.1/com.google.guava/failureaccess/1.0.1/1dcf1de382a0bf95a3d8b0849546c88bac1292c9/failureaccess-1.0.1.jar:/Users/tony/Desktop/work/gradle-6.8.3/package/caches/modules-2/files-2.1/com.google.guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/b421526c5f297295adef1c886e5246c39d4ac629/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/tony/Desktop/work/gradle-6.8.3/package/caches/modules-2/files-2.1/org.checkerframework/checker-compat-qual/2.5.5/435dc33e3019c9f019e15f01aa111de9d6b2b79c/checker-compat-qual-2.5.5.jar:/Users/tony/Desktop/work/gradle-6.8.3/package/caches/modules-2/files-2.1/com.google.j2objc/j2objc-annotations/1.3/ba035118bc8bac37d7eff77700720999acd9986d/j2objc-annotations-1.3.jar:/Users/tony/Desktop/work/gradle-6.8.3/package/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-serialization-core-jvm/1.0.1/d0c5ab89372940ed3fb77952e79b9cd5d466d86/kotlinx-serialization-core-jvm-1.0.1.jar" />
+          <option name="noStdlib" value="true" />
+          <option name="noReflect" value="true" />
+          <option name="moduleName" value="spring-messaging" />
+          <option name="jvmTarget" value="1.8" />
+          <option name="languageVersion" value="1.3" />
+          <option name="apiVersion" value="1.3" />
+          <option name="pluginOptions">
+            <array />
+          </option>
+          <option name="pluginClasspaths">
+            <array>
+              <option value="$MODULE_DIR$/../../../../work/gradle-6.8.3/package/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-gradle-plugin-api/1.4.31/63692dfe4484c4f989319cf3429b357c17f772ae/kotlin-gradle-plugin-api-1.4.31.jar" />
+              <option value="$MODULE_DIR$/../../../../work/gradle-6.8.3/package/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-script-runtime/1.4.30/b9c2a1fab9217623fc0fbadf6190e77eed6f054d/kotlin-script-runtime-1.4.30.jar" />
+              <option value="$MODULE_DIR$/../../../../work/gradle-6.8.3/package/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-scripting-common/1.4.30/c7896c5c6b504f44e7cf9f5719d4393e20680666/kotlin-scripting-common-1.4.30.jar" />
+              <option value="$MODULE_DIR$/../../../../work/gradle-6.8.3/package/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-scripting-jvm/1.4.30/7d0085e5781847da84580d16239c1c4e0980bdb0/kotlin-scripting-jvm-1.4.30.jar" />
+              <option value="$MODULE_DIR$/../../../../work/gradle-6.8.3/package/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.4.30/bb9a3173350f55732416ee27956ea8f9b81f4dbb/kotlin-stdlib-common-1.4.30.jar" />
+              <option value="$MODULE_DIR$/../../../../work/gradle-6.8.3/package/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.4.30/d10d1e10f47006ee08162dde039e38ac487de4ac/kotlin-stdlib-1.4.30.jar" />
+              <option value="$MODULE_DIR$/../../../../work/gradle-6.8.3/package/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core-jvm/1.4.3/1051e11eb789ed1df93412bebe0f06e9d29160e4/kotlinx-coroutines-core-jvm-1.4.3.jar" />
+              <option value="$MODULE_DIR$/../../../../work/gradle-6.8.3/package/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar" />
+              <option value="$KOTLIN_BUNDLED$/lib/kotlinx-serialization-compiler-plugin.jar" />
+            </array>
+          </option>
+          <option name="errors">
+            <ArgumentParseErrors />
+          </option>
+        </compilerArguments>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../../spring-framework-master/spring-messaging/out/production/classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../spring-framework-master/spring-messaging/src/main">
+      <sourceFolder url="file://$MODULE_DIR$/../../../spring-framework-master/spring-messaging/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../spring-framework-master/spring-messaging/src/main/kotlin" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../spring-framework-master/spring-messaging/src/main/resources" type="java-resource" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../spring-framework-master/spring-core/build/libs/spring-cglib-repack-3.3.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../spring-framework-master/spring-core/build/libs/spring-objenesis-repack-3.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="spring.spring-beans.main" />
+    <orderEntry type="module" module-name="spring.spring-core.main" />
+    <orderEntry type="library" name="Gradle: com.google.code.findbugs:jsr305:3.0.2" level="project" />
+    <orderEntry type="module" module-name="spring.kotlin-coroutines.main" scope="PROVIDED" />
+    <orderEntry type="module" module-name="spring.spring-jcl.main" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.jetbrains.kotlin:kotlin-reflect:1.4.30" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-reactor:1.4.3" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.4.30" level="project" />
+    <orderEntry type="library" name="Gradle: io.projectreactor:reactor-core:3.4.4" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-reactive:1.4.3" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.4.30" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.4.3" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.4.30" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains:annotations:13.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.reactivestreams:reactive-streams:1.0.3" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.4.30" level="project" />
+    <orderEntry type="module" module-name="spring.spring-context.main" />
+    <orderEntry type="module" module-name="spring.spring-oxm.main" />
+    <orderEntry type="library" name="Gradle: io.rsocket:rsocket-transport-netty:1.1.0" level="project" />
+    <orderEntry type="library" name="Gradle: io.projectreactor.netty:reactor-netty-http:1.0.5" level="project" />
+    <orderEntry type="library" name="Gradle: io.rsocket:rsocket-core:1.1.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-databind:2.12.2" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.protobuf:protobuf-java-util:3.15.5" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.code.gson:gson:2.8.6" level="project" />
+    <orderEntry type="library" name="Gradle: javax.json.bind:javax.json.bind-api:1.0" level="project" />
+    <orderEntry type="library" name="Gradle: javax.xml.bind:jaxb-api:2.3.1" level="project" />
+    <orderEntry type="module" module-name="spring.spring-aop.main" />
+    <orderEntry type="module" module-name="spring.spring-expression.main" />
+    <orderEntry type="library" name="Gradle: io.projectreactor.netty:reactor-netty-core:1.0.5" level="project" />
+    <orderEntry type="library" name="Gradle: org.slf4j:slf4j-api:1.7.30" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-codec-http2:4.1.60.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-codec-http:4.1.60.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-resolver-dns-native-macos:osx-x86_64:4.1.60.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-resolver-dns:4.1.60.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-transport-native-epoll:linux-x86_64:4.1.60.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-buffer:4.1.60.Final" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-annotations:2.12.2" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-core:2.12.2" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.protobuf:protobuf-java:3.15.5" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.guava:guava:30.0-android" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.errorprone:error_prone_annotations:2.3.4" level="project" />
+    <orderEntry type="library" name="Gradle: javax.activation:javax.activation-api:1.2.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-serialization-json-jvm:1.0.1" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-handler-proxy:4.1.60.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-handler:4.1.60.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-codec:4.1.60.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-transport:4.1.60.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-common:4.1.60.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-transport-native-unix-common:4.1.60.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-codec-dns:4.1.60.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-resolver:4.1.60.Final" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.guava:failureaccess:1.0.1" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava" level="project" />
+    <orderEntry type="library" name="Gradle: org.checkerframework:checker-compat-qual:2.5.5" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.j2objc:j2objc-annotations:1.3" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-codec-socks:4.1.60.Final" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-serialization-core-jvm:1.0.1" level="project" />
+  </component>
+</module>

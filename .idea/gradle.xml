@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="delegatedBuild" value="false" />
+        <option name="testRunner" value="PLATFORM" />
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/spring-framework-master" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../work/gradle-6.8.3" />
+        <option name="gradleJvm" value="1.8" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/spring-framework-master" />
+            <option value="$PROJECT_DIR$/spring-framework-master/buildSrc" />
+            <option value="$PROJECT_DIR$/spring-framework-master/framework-bom" />
+            <option value="$PROJECT_DIR$/spring-framework-master/integration-tests" />
+            <option value="$PROJECT_DIR$/spring-framework-master/spring-aop" />
+            <option value="$PROJECT_DIR$/spring-framework-master/spring-aspects" />
+            <option value="$PROJECT_DIR$/spring-framework-master/spring-beans" />
+            <option value="$PROJECT_DIR$/spring-framework-master/spring-context" />
+            <option value="$PROJECT_DIR$/spring-framework-master/spring-context-indexer" />
+            <option value="$PROJECT_DIR$/spring-framework-master/spring-context-support" />
+            <option value="$PROJECT_DIR$/spring-framework-master/spring-core" />
+            <option value="$PROJECT_DIR$/spring-framework-master/spring-core/kotlin-coroutines" />
+            <option value="$PROJECT_DIR$/spring-framework-master/spring-debug" />
+            <option value="$PROJECT_DIR$/spring-framework-master/spring-expression" />
+            <option value="$PROJECT_DIR$/spring-framework-master/spring-instrument" />
+            <option value="$PROJECT_DIR$/spring-framework-master/spring-jcl" />
+            <option value="$PROJECT_DIR$/spring-framework-master/spring-jdbc" />
+            <option value="$PROJECT_DIR$/spring-framework-master/spring-jms" />
+            <option value="$PROJECT_DIR$/spring-framework-master/spring-messaging" />
+            <option value="$PROJECT_DIR$/spring-framework-master/spring-orm" />
+            <option value="$PROJECT_DIR$/spring-framework-master/spring-oxm" />
+            <option value="$PROJECT_DIR$/spring-framework-master/spring-r2dbc" />
+            <option value="$PROJECT_DIR$/spring-framework-master/spring-test" />
+            <option value="$PROJECT_DIR$/spring-framework-master/spring-tx" />
+            <option value="$PROJECT_DIR$/spring-framework-master/spring-web" />
+            <option value="$PROJECT_DIR$/spring-framework-master/spring-webflux" />
+            <option value="$PROJECT_DIR$/spring-framework-master/spring-webmvc" />
+            <option value="$PROJECT_DIR$/spring-framework-master/spring-websocket" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
